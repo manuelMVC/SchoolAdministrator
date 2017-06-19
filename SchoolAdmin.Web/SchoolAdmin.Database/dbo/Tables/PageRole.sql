@@ -1,0 +1,11 @@
+﻿CREATE TABLE [dbo].[PageRole]
+(
+	[Id] INT NOT NULL PRIMARY KEY, 
+    [PageId] INT NOT NULL, 
+    [RoleId] NCHAR(10) NOT NULL,
+	[Active]		BIT NOT NULL DEFAULT 1,
+	[CreatedBy] NVARCHAR(50) NOT NULL,
+	[CreatedDate] DATETIME DEFAULT GETDATE() NOT NULL, 
+	[ModifiedBy] NVARCHAR(50) NULL,
+	[ModifiedDate] DATETIME NULL	
+)

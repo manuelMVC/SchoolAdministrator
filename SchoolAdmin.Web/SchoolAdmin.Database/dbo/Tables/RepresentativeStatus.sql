@@ -1,0 +1,10 @@
+﻿CREATE TABLE [dbo].[RepresentativeStatus]
+(
+	[Id] INT NOT NULL PRIMARY KEY,
+	[Description]	NVARCHAR(100) NOT NULL,
+	[Active] BIT DEFAULT 1 NOT NULL,
+	[CreatedBy]	NVARCHAR(50) NOT NULL,
+	[CreatedDate] DATETIME DEFAULT GETDATE() NOT NULL,
+	[ModifiedBy] NVARCHAR(50) NULL,
+	[ModifiedDate] DATETIME NULL
+)

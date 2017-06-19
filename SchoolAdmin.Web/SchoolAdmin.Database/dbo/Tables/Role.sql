@@ -1,0 +1,10 @@
+﻿CREATE TABLE [dbo].[Role]
+(
+	[Id]			INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+	[Description]	NVARCHAR(100) NOT NULL,
+	[Active]		BIT NOT NULL DEFAULT 1,
+	[CreatedBy] NVARCHAR(50) NOT NULL,
+	[CreatedDate] DATETIME DEFAULT GETDATE() NOT NULL, 
+	[ModifiedBy] NVARCHAR(50) NULL,
+	[ModifiedDate] DATETIME NULL	
+)
