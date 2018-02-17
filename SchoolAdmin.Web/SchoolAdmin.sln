@@ -1,12 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolAdmin.Web", "SchoolAdmin.Web\SchoolAdmin.Web.csproj", "{ABFEAEFC-385F-486D-BC32-6B6D0AAD4E81}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolAdmin.Tests", "SchoolAdmin.Tests\SchoolAdmin.Tests.csproj", "{3D53CF7D-2902-4EAA-AF35-073A9515B02E}"
-EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SchoolAdmin.Database", "SchoolAdmin.Database\SchoolAdmin.Database.sqlproj", "{D97C7B86-8229-44E8-9915-2964DAAD7ABE}"
 EndProject
 Global
@@ -15,14 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ABFEAEFC-385F-486D-BC32-6B6D0AAD4E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ABFEAEFC-385F-486D-BC32-6B6D0AAD4E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ABFEAEFC-385F-486D-BC32-6B6D0AAD4E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ABFEAEFC-385F-486D-BC32-6B6D0AAD4E81}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3D53CF7D-2902-4EAA-AF35-073A9515B02E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3D53CF7D-2902-4EAA-AF35-073A9515B02E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3D53CF7D-2902-4EAA-AF35-073A9515B02E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3D53CF7D-2902-4EAA-AF35-073A9515B02E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D97C7B86-8229-44E8-9915-2964DAAD7ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D97C7B86-8229-44E8-9915-2964DAAD7ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D97C7B86-8229-44E8-9915-2964DAAD7ABE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
@@ -32,5 +20,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {770586D1-164A-4534-BAD7-670E913FF95A}
 	EndGlobalSection
 EndGlobal
